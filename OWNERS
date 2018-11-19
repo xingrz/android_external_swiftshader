@@ -2,9 +2,23 @@
 #
 # This list is used by Chromium and Android to make sure that one of the owners
 # in this list has approved a SwiftShader related change before landing it.
+#
+# Note that the upstream source-of-truth git repository at
+# swiftshader.googlesource.com/SwiftShader has ownership and access control
+# seperate from those controlled by this OWNERS file.
 
 ghartman@google.com
 nicolascapens@google.com
-sugoi@google.com
+lfy@google.com
+shannonwoods@google.com
+chrisforbes@google.com
+cwallez@google.com
+jansene@google.com
+yahan@google.com
+bohu@google.com
+zyy@google.com
+wdu@google.com
+joshuaduong@google.com
+huans@google.com
 
 # COMPONENT: Internals>GPU>SwiftShader
