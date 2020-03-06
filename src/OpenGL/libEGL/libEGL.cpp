@@ -830,6 +830,9 @@ EGLContext CreateContext(EGLDisplay dpy, EGLConfig config, EGLContext share_cont
 					return error(EGL_BAD_ATTRIBUTE, EGL_NO_CONTEXT);
 				}
 				break;
+			case EGL_CONTEXT_PRIORITY_LEVEL_IMG:
+				// Can be freely ignored
+				break;
 			default:
 				return error(EGL_BAD_ATTRIBUTE, EGL_NO_CONTEXT);
 			}
