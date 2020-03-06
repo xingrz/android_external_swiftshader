@@ -48,7 +48,7 @@ Process::GetPageSize()
   // On Cygwin, getpagesize() returns 64k but the page size for the purposes of
   // memory protection and mmap() is 4k.
   // See http://www.cygwin.com/ml/cygwin/2009-01/threads.html#00492
-  const int page_size = 0x1000;
+  const int page_size = 0x4000;
 #elif defined(HAVE_GETPAGESIZE)
   const int page_size = ::getpagesize();
 #elif defined(HAVE_SYSCONF)
